@@ -12,7 +12,7 @@ public class Producto {
     private String nombre;
     private String descripcion;
     private Double precio;
-    private Integer cantidadStock;
+    private Long cantidadStock;
 
     public Long getId() {
         return id;
@@ -46,11 +46,11 @@ public class Producto {
         this.precio = precio;
     }
 
-    public Integer getCantidadStock() {
+    public Long getCantidadStock() {
         return cantidadStock;
     }
 
-    public void setCantidadStock(Integer cantidadStock) {
+    public void setCantidadStock(Long cantidadStock) {
         this.cantidadStock = cantidadStock;
     }
 }
