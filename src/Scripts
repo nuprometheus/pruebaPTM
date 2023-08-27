@@ -1,0 +1,11 @@
+create database producto;
+
+show databases;
+
+use producto;
+
+show tables;
+
+desc producto;
+
+select * from producto;
